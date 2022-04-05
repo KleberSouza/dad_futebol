@@ -11,6 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Ocelot.DependencyInjection;
+using Ocelot.Middleware;
 
 namespace GatewayApi
 {
@@ -28,6 +30,9 @@ namespace GatewayApi
         {
 
             services.AddControllers();
+
+            services.AddOcelot();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "GatewayApi", Version = "v1" });
@@ -43,6 +48,8 @@ namespace GatewayApi
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "GatewayApi v1"));
             }
+
+            app.UseOcelot();
 
             app.UseHttpsRedirection();
 

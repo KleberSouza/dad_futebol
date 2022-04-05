@@ -7,13 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogadoresApi", "JogadoresAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimesApi", "TimesApi\TimesApi.csproj", "{00B1DDD0-8005-4677-8EEA-002E4270B299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartidasApi", "PartidasApi\PartidasApi.csproj", "{3959B660-E3CE-4C84-AC94-8AAD0C2E8644}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApi", "AuthApi\AuthApi.csproj", "{B7761472-7B39-47CF-A4AD-29AF0795E646}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayApi", "GatewayApi\GatewayApi.csproj", "{7CD6CD13-9210-406C-9FB6-2F476EFB5CCE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutebolWeb", "FutebolWeb\FutebolWeb.csproj", "{A3AA74A1-1216-48F9-91EA-CF50E554C247}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +25,6 @@ Global
 		{00B1DDD0-8005-4677-8EEA-002E4270B299}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00B1DDD0-8005-4677-8EEA-002E4270B299}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00B1DDD0-8005-4677-8EEA-002E4270B299}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3959B660-E3CE-4C84-AC94-8AAD0C2E8644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3959B660-E3CE-4C84-AC94-8AAD0C2E8644}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3959B660-E3CE-4C84-AC94-8AAD0C2E8644}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3959B660-E3CE-4C84-AC94-8AAD0C2E8644}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B7761472-7B39-47CF-A4AD-29AF0795E646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7761472-7B39-47CF-A4AD-29AF0795E646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7761472-7B39-47CF-A4AD-29AF0795E646}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,10 +33,6 @@ Global
 		{7CD6CD13-9210-406C-9FB6-2F476EFB5CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CD6CD13-9210-406C-9FB6-2F476EFB5CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CD6CD13-9210-406C-9FB6-2F476EFB5CCE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A3AA74A1-1216-48F9-91EA-CF50E554C247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A3AA74A1-1216-48F9-91EA-CF50E554C247}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A3AA74A1-1216-48F9-91EA-CF50E554C247}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A3AA74A1-1216-48F9-91EA-CF50E554C247}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
